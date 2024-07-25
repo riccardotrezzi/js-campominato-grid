@@ -25,7 +25,7 @@ body{
 }
 
 #grid-container > *{
-    width: calc(100% / 10);
+    width: 100px;
     height: 100px;
     border: 1px solid greenyellow;
     background-color: black;
@@ -40,4 +40,19 @@ body{
 #grid-container > .click-card{
     background-color: lightcoral;
     border: 1px solid greenyellow;
+}
+
+#grid-container > .medium{
+    width: 100px;
+    height: 100px;
+}
+
+#grid-container > .medium{
+    width: calc(1000px / 9);
+    height: calc(1000px / 9);
+}
+
+#grid-container > .hard{
+    width: calc(1000px / 7);
+    height: calc(1000px / 7);
 }
