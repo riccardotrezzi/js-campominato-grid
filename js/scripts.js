@@ -16,6 +16,7 @@ startButton.addEventListener ('click', function (){
         numberCells = 49;
     }
 
+    
     /* Sintassi alternativa
     
     switch (diffLevels.value) {
@@ -34,7 +35,7 @@ startButton.addEventListener ('click', function (){
 
     gridContainer.innerHTML = '';
 
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= numberCells; i++) {
 
         const newCell = document.createElement('div');
         newCell.innerHTML = i;
